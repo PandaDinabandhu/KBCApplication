@@ -7,7 +7,7 @@ public class Simple {
 
     public static void main(String args[]) throws Exception{
 
-        String sname;
+        String sname1;
          int age;
              Connection connect=DriverManager.getConnection("Jdbc:mysql://localhost:3306/kbc","root","12345");
      Statement statement=connect.createStatement();
